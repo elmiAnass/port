@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: Blackout;
+  src: url("./font/Chillax-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Plackout;
+  src: url("./font/Chillax-Semibold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Boldout;
+  src: url("./font/Excon_Complete/Fonts/OTF/Excon-Black.otf") format("opentype");
+}
+
+#textv{
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+body{
+  background-color: black
+}
+
+
+
+.middle {
+  position: absolute;
+  top: 87%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mouse {
+  width: 30px;
+  height: 50px;
+  border: 2px solid #333333;
+  border-radius: 60px;
+}
+
+.mouse::before {
+  content: '';
+  width: 8px;
+  height: 12px;
+  position: absolute;
+  top: 28px;
+  background-color: #333;   
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  opacity: 1;
+  animation: mouse 2s infinite;
+}
+
+@keyframes mouse {
+  from {
+      opacity: 1;
+      bottom:  20px;
+  }
+  to {
+      opacity: 0;
+      top: 10px;
+  }
+}
