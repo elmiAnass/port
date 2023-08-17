@@ -1,16 +1,14 @@
-"use client";
-import React from "react";
-import ScrollReveal from "scrollreveal";
-import { useEffect } from "react";
+// "use client";
+// import React from "react";
+// import ScrollReveal from "scrollreveal";
+// import { useEffect } from "react";
 
 const CardProjects =()=>{
 
-    useEffect(() => {
-        ScrollReveal().reveal('.Project', { delay: 800 })
-        ScrollReveal().reveal('.Project3', { delay: 900 })
-
-
-      })
+    // useEffect(() => {
+    //     ScrollReveal().reveal('.Project', { delay: 800 })
+    //     ScrollReveal().reveal('.Project3', { delay: 900 })
+    //   })
     return(
 <div>  
 

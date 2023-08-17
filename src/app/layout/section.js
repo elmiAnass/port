@@ -1,6 +1,6 @@
-"use client";
-import ScrollReveal from "scrollreveal";
-import React, {useEffect } from 'react'
+// "use client";
+// // import ScrollReveal from "scrollreveal";
+// import React, {useEffect } from 'react'
 import WaterDropGrid from "./Dropwater"
 import Headericons from "./headericons";
 
@@ -8,15 +8,15 @@ import Headericons from "./headericons";
 
 const Section = () => {
 
-  useEffect(() => {
-    ScrollReveal().reveal('.head1', { delay: 400 })
-    ScrollReveal().reveal('.head2', { delay: 400 })
-    ScrollReveal().reveal('.head3', { delay: 600 })
-    ScrollReveal().reveal('.head4', { delay: 800 })
-    ScrollReveal().reveal('.head5', { delay: 1200 })
-    ScrollReveal().reveal('.middle', { delay: 2400 })
+  // useEffect(() => {
+  //   // ScrollReveal().reveal('.head1', { delay: 400 })
+  //   // ScrollReveal().reveal('.head2', { delay: 400 })
+  //   // ScrollReveal().reveal('.head3', { delay: 600 })
+  //   // ScrollReveal().reveal('.head4', { delay: 800 })
+  //   // ScrollReveal().reveal('.head5', { delay: 1200 })
+  //   // ScrollReveal().reveal('.middle', { delay: 2400 })
 
-  })
+  // })
 
   return (
     <main className=" overflow-hidden" >
